@@ -1,0 +1,26 @@
+[
+    {
+        "application_type" : "browser",
+        "indicator" : "tp",
+        "tp_need" : 5.0,
+        "rtt_need" : 0.0
+    },
+    {
+        "application_type" : "video",
+        "indicator" : "tp",
+        "tp_need" : 10.0,
+        "rtt_need" : 0.0
+    },
+    {
+        "application_type" : "call",
+        "indicator" : "rtt",
+        "tp_need" : 0.0,
+        "rtt_need" : 200.0
+    },
+    {
+        "application_type" : "live streaming",
+        "indicator" : "rtt",
+        "tp_need" : 0.0,
+        "rtt_need" : 100.0
+    }
+]
